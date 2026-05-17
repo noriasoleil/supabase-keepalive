@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Ping Supabase
         run: |
-          curl -X POST "https://uzwkaljeyplbtkftfjhlp.supabase.co/rest/v1/keep_alive" \
+          curl -X POST "https://uzwkaljeyplbtktfjhlp.supabase.co/rest/v1/keep_alive" \
           -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}" \
           -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}" \
           -H "Content-Type: application/json" \
